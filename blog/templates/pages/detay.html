@@ -16,7 +16,7 @@
         <h5 class="card-title">{{ yazi.baslik }}</h5>
         <p class="card-text">{{ yazi.icerik | safe }}</p>
         <p class="card-text">
-          <small class="text-muted">Önce Paylaşıldı: {{ yazi.duzenleme_tarihi | timesince }}
+          <small class="text-muted">Önce Paylaşıldı     : {{ yazi.duzenleme_tarihi | timesince }}
             <br>
             Yazar : <a href="{% url 'profil' username=yazi.yazar.username %}">{{ yazi.yazar.username }}</a>
 
