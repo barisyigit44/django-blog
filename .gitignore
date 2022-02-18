@@ -1,0 +1,10 @@
+# Gereksizleri githuba göndermemek için buraya yazıyoruz .
+__pycache__
+.vscode
+db.sqlite3
+yazi_resimleri
+avatar
+media
+.env
+prod.sqlite3
+logs
